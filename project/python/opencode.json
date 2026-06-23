@@ -7,49 +7,6 @@
         }
     },
     "permission": {
-        "bash": {
-            "./specify *": "allow",
-            "./specify*": "allow",
-            "git *": "allow",
-            "git commit *": "allow",
-            "git push *": "allow",
-            "sudo *": "deny",
-            "gh pr *": "allow",
-            "gh auth status": "allow",
-            "rm -rf *": "ask",
-            ":(){:|:&};:": "deny",
-            "pytest *": "allow",
-            "ruff *": "allow",
-            "uv run ruff *": "allow",
-            "mypy *": "allow",
-            "uv run mypy *": "allow",
-            "python *": "allow",
-            "python -m py_compile *": "allow",
-            "uv run *": "allow",
-            "pwd": "allow",
-            "ls": "allow",
-            "ls *": "allow",
-            "mkdir *": "allow",
-            "touch *": "allow",
-            "cp *": "allow",
-            "mv *": "allow",
-            "find *": "allow",
-            "grep *": "allow",
-            "rg *": "allow",
-            "head *": "allow",
-            "tail *": "allow",
-            "cat *": "allow",
-            "wc *": "allow",
-            "sort *": "allow",
-            "uniq *": "allow",
-            "diff *": "allow",
-            "echo *": "allow",
-            "date": "allow",
-            "which *": "allow",
-            "type *": "allow",
-            "env *": "ask",
-            "printenv *": "ask"
-        },
         "lsp": "allow",
         "skill": "allow",
         "webfetch": "allow",
@@ -98,8 +55,5 @@
                 ".pyi"
             ]
         }
-    },
-    "keybinds": {
-        "input_newline": "shift+return,ctrl+return,alt+return,ctrl+j"
     }
 }
