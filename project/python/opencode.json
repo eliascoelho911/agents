@@ -12,7 +12,7 @@
             "./specify*": "allow",
             "git *": "allow",
             "git commit *": "allow",
-            "git push *": "deny",
+            "git push *": "allow",
             "sudo *": "deny",
             "gh pr *": "allow",
             "gh auth status": "allow",
